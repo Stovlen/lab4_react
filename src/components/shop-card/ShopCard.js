@@ -11,7 +11,7 @@ const ShopCard = (props) => {
     <Card>
       <Card.Img variant="top" src={props.card.img} alt={props.card.name} />
       <Card.Body>
-        <Card.Title>{props.card.name}</Card.Title> {/* Заміна title на name */}
+        <Card.Title>{props.card.name}</Card.Title>
         <Card.Text>{props.card.description}</Card.Text>
         <Button variant="outline-secondary" onClick={chooseItem}>
           Виберіть цей варіант
